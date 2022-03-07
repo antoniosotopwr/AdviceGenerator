@@ -6,7 +6,7 @@ async function getapi(url) {
   var { id, advice } = data.slip;
 
   document.getElementById("advice").textContent = '"' + advice + '"'; 
-  document.getElementById("adviceNumber").textContent =  id ;
+  document.getElementById("adviceNumber").textContent =  "#:"+ id ;
 }
 
 getapi(api_url);

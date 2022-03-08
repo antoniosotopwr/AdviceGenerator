@@ -17,7 +17,7 @@ h1 {
   position: absolute;
   top: 15px;
   color: #fff;
-  font-size: 4.5em;
+  font-size: 3em;
   justify-content: center;
   align-items: center;
 }
@@ -98,3 +98,22 @@ h1 {
   max-width: 10%;
   height: 10%;
 }
+
+@media (min-width: 850px) {
+  h1{
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 768px) {
+  h1{
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 600px) {
+  h1{
+    font-size: 4em;
+  }
+}
+

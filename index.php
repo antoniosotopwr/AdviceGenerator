@@ -29,7 +29,7 @@
         <div class="content">
           <p id="advice"></p>
           <a onclick="window.location.reload();">
-          <i class="bi bi-shuffle"></i></a>
+          New advice <i class="bi bi-shuffle"></i></a>
         </div>
       </div>
     </div>

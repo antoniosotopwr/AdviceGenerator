@@ -19,7 +19,7 @@
   </head>
   <body>
     
-    <h1>Advice Generator</h1>
+    <h1 class="titulo">Advice Generator</h2>
 
     <div class="container">
       <div class="card">

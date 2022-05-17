@@ -42,17 +42,68 @@ h1 {
   transition: 0.5s;
 }
 
+.card {
+  position: relative;
+  width: 19rem;
+  height: 16rem;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover {
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
+}
+ .card .circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffaf00;
+  clip-path: polygon(0% -5%,100% -5%,100% 30%, 0% 30%);
+  text-align: center;
+}
+.card .circle h2 {
+  color: #fff;
+  font-size: 3em;
+  padding: 10px 0;
+}
+
+.card .content {
+  position: flex;
+  bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.card .content p {
+  color: #666;
+  padding-bottom: 30px;
+  font-size: 1.1em;
+  
+}
+.card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #da2268;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
 /*.container:hover .card{
     filter: blur(20px);
     transform: scale(0.9);
     opacity: 0.5;
 }*/
 
-.container .card:hover {
-  filter: blur(0px);
-  transform: scale(1.1);
-  opacity: 1;
-}
+
 .container .card .circle {
   position: relative;
   width: 100%;
@@ -75,7 +126,7 @@ h1 {
 }
 .container .card .content p {
   color: #666;
-  padding-bottom: 30px;
+  padding: 20px 0;
   font-size: 1.1em;
   font-style: italic;
 }
@@ -93,7 +144,7 @@ h1 {
 .container .card:first-child .content a {
   background: #da2268;
 }
-
+ 
 .dice {
   max-width: 10%;
   height: 10%;
